@@ -101,7 +101,7 @@ BikeShare should treat these as two different use cases:
 ### Leisure dominates usage across all metros
 Leisure trips account for the majority of rides in every city, ranging from 78.22% in Los Angeles to 89.59% in Pittsburgh. Austin (85.93%) and Portland (87.97%) follow a similar pattern.
 
-![Database Schema](01_market_structure/usage_across_metros.png)
+![Database Schema](images/usage_across_metros.png)
 
 Commuter trips are much lower (10%–22%), showing that bike share is primarily used for non-commuting purposes across all markets.
 
