@@ -8,7 +8,7 @@ The goal is to understand how bike share systems are used differently across mar
 
 Insights and recommendations are provided across three key areas:
 
-- **Category 1: Market Composition**  
+- **Category 1: Market Structure**  
   How trips are distributed across metros, user types, and trip categories  
 
 - **Category 2: Temporal Patterns**  
