@@ -215,6 +215,7 @@ This highlights how local climate affects leisure demand even when overall patte
 <p align="center">
   <img src="images/rain_reslience.jpeg" width="550"><br>
 </p>
+
 - The Rain Participation Ratio compares how often trips occur in rain relative to how often it rains.  
 - A value of 1 means trips occur at the same rate as rain; below 1 means people avoid riding in rain.  
 
@@ -265,6 +266,7 @@ This shows commuting trips are short and direct, while leisure trips involve lon
 <p align="center">
   <img src="images/duration_distribution.jpeg" width="550"><br>
 </p>
+
 - Standard deviation of duration is much higher for leisure (e.g., Pittsburgh: 28.3 vs 6.32).  
 - Maximum durations are also much larger (e.g., Pittsburgh: 125 minutes vs 32 for commuters).  
 
