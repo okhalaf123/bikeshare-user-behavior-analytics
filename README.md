@@ -85,3 +85,73 @@ Before analysis, several checks were performed to ensure data quality:
   - Different start and end stations  
 
 This cleaned and structured dataset forms the basis for all subsequent analysis.
+
+## Executive Summary
+
+BikeShare is used mostly for leisure across all four metros. These trips are longer, more flexible, and less focused on speed, while commuting trips are short, consistent, and follow weekday routines.
+
+BikeShare should treat these as two different use cases:
+- Keep commuting reliable and easy to access during peak hours  
+- Focus most decisions on improving and growing leisure usage through pricing, bike availability, and product features that support longer and more flexible rides  
+
+---
+
+## Category 1: Market Structure
+
+### Leisure dominates usage across all metros
+Leisure trips account for the majority of rides in every city, ranging from 78.22% in Los Angeles to 89.59% in Pittsburgh. Austin (85.93%) and Portland (87.97%) follow a similar pattern.
+
+Commuter trips are much lower (10%–22%), showing that bike share is primarily used for non-commuting purposes across all markets.
+
+---
+
+### Los Angeles has the highest commuting share, but leisure still dominates
+Los Angeles has the highest share of commuter trips at 21.78%, compared to:
+- Austin: 14.07%  
+- Portland: 12.03%  
+- Pittsburgh: 10.41%  
+
+This suggests stronger commuting adoption in LA, but even there, nearly 4 out of 5 trips are still leisure.
+
+---
+
+### Leisure user composition differs by metro
+In Los Angeles, 55.03% of leisure trips come from subscribers, making it the only metro where leisure usage is primarily subscription-based.
+
+In contrast:
+- Austin: 59.43% walk-up  
+- Pittsburgh: 67.83% walk-up  
+- Portland: 66.35% walk-up  
+
+This shows that while leisure dominates everywhere, the type of user driving leisure demand differs by market.
+
+---
+
+### Most leisure trips are one-way, with Pittsburgh showing more round-trip behavior
+Across metros, the majority of leisure trips are one-way (70%–82%), meaning users are traveling between different locations.
+
+Pittsburgh stands out with 29.62% round trips, higher than:
+- Austin: 18.06%  
+- Los Angeles: 18.46%  
+- Portland: 21.9%  
+
+This suggests more recreational, loop-style riding in Pittsburgh.
+
+---
+
+### Dockless usage varies significantly by metro
+- Austin and Los Angeles are fully station-based (100%)  
+- Pittsburgh has limited dockless usage (~7–9%)  
+- Portland stands out with 45.51% dockless usage  
+
+This shows that infrastructure differences shape how leisure trips are taken, even if overall usage patterns remain similar.
+
+---
+
+### Overall pattern
+Leisure dominates in all metros, but how people take leisure trips differs by market:
+- **Who** takes the trips (subscriber vs walk-up)  
+- **How** trips are structured (one-way vs round-trip)  
+- **How** bikes are accessed (station vs dockless)  
+
+The key difference across metros is not whether bikes are used for leisure, but how that leisure usage happens.
