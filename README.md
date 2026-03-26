@@ -31,8 +31,6 @@ The BikeShare database consists of five main tables with rental, location, time,
 
 ![Database Schema](schema.png)
 
-> Place the schema image inside an `images/` folder in your repository and name it `schema.png`.
-
 ---
 
 ### Main Tables
@@ -46,27 +44,17 @@ Contains trip-level data including start/end time, stations, trip duration, and 
 - `FromStationID` / `ToStationID`  
 - `StartDate`, `StartTime`, `StartDayOfWeek`  
 
----
-
 #### Stations
 Contains station-level data including location and metro assignment. Includes a special “dockless” station for trips not starting or ending at a fixed station.
-
----
 
 #### MetroArea
 Defines the four metro areas and their associated bike share systems. Used to group and compare markets.
 
----
-
 #### DaysOfTheWeek
 Lookup table mapping numeric day IDs (1–7) to day names.
 
----
-
 #### Weather
 Hourly weather data for each metro area, including temperature, precipitation, and conditions. Used to analyze how weather affects trip behavior.
-
----
 
 ### Initial Checks & Data Cleaning
 
