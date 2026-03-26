@@ -19,6 +19,6 @@ Insights and recommendations are provided across three key areas:
 
 Targeted SQL queries for each category can be found here:
 
-- [Category 1 Queries](#)
-- [Category 2 Queries](#)
-- [Category 3 Queries](#)
+- [Category 1 Queries](01_market_structure/01_market_structure.sql)
+- [Category 2 Queries](02_temporal_patterns/02_temporal_patterns.sql)
+- [Category 3 Queries](03_trip_behavior/03_trip_behavior.sql)
