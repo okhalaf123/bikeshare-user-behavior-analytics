@@ -245,3 +245,88 @@ This means rain slightly reduces leisure trips more than commuting, but does not
 - Leisure, which dominates total usage, varies by weekends, seasons, and weather conditions.  
 
 The key difference is not just how much each type is used, but how sensitive each is to time and external factors.
+
+
+## Category 3: Trip Behavior
+
+### Leisure trips are significantly longer than commuter trips
+Average trip duration (with outliers removed) is consistently higher for leisure:
+
+- Austin: 17.46 min (leisure) vs 7.14 min (commuter)  
+- Los Angeles: 15.97 vs 9.19  
+- Pittsburgh: 30.10 vs 11.73  
+- Portland: 17.52 vs 10.09  
+
+This shows commuting trips are short and direct, while leisure trips involve longer, more flexible riding.
+
+---
+
+### Leisure trips are more variable and less predictable
+<p align="center">
+  <img src="images/duration_distribution.jpeg" width="550"><br>
+</p>
+- Standard deviation of duration is much higher for leisure (e.g., Pittsburgh: 28.3 vs 6.32).  
+- Maximum durations are also much larger (e.g., Pittsburgh: 125 minutes vs 32 for commuters).  
+
+This means leisure usage includes both short and very long rides, while commuting is more consistent.
+
+---
+
+### Commuter trips are concentrated in short durations, while leisure includes more long trips
+Using duration bands (bottom 25%, middle 50%, top 25% within each metro):
+
+<p align="center">
+  <img src="images/share_trip_types.jpeg" width="550"><br>
+</p>
+
+- Commuters have a high share of short trips  
+  - Example: Austin → 50.64% short trips  
+- Leisure has a higher share of long trips  
+  - Example: Los Angeles → ~30% long trips  
+  - Portland → 27.58% long trips  
+
+This confirms commuters prioritize quick trips, while leisure riders are more likely to take longer rides.
+
+---
+
+### Distance is similar despite longer leisure durations
+Average distances are close or even lower for leisure:
+
+- Austin: 0.68 miles (leisure) vs 0.66 (commuter)  
+- Los Angeles: 0.69 vs 0.78  
+- Pittsburgh: 0.85 vs 1.13  
+- Portland: 0.48 vs 0.64  
+
+This shows leisure riders are not traveling farther, but spending more time riding.
+
+---
+
+### Commuter trips are more efficient than leisure trips
+Trip efficiency (miles per minute):
+
+- Austin: 0.0966 (commuter) vs 0.0583 (leisure)  
+- Pittsburgh: 0.1018 vs 0.0550  
+- Portland: 0.0731 vs 0.0399  
+
+Higher values mean faster, more direct trips.
+
+This shows commuters travel efficiently, while leisure trips are slower and less direct.
+
+---
+
+### Pittsburgh shows the strongest difference between commuting and leisure behavior
+Pittsburgh has the largest gap in both duration and variability:
+
+- Duration: 30.10 vs 11.73 minutes  
+- Max duration: 125 vs 32 minutes  
+- Largest efficiency gap (0.1018 vs 0.0550)  
+
+This suggests leisure riding in Pittsburgh is especially recreational, while commuting remains structured.
+
+---
+
+### Overall pattern
+- Commuters take shorter, faster, and more consistent trips → goal-oriented travel  
+- Leisure riders take longer, slower, and more variable trips → exploration and recreation  
+
+The key difference is not just how often bikes are used, but how they are used.
