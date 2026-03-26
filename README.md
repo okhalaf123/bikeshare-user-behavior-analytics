@@ -332,3 +332,106 @@ This suggests leisure riding in Pittsburgh is especially recreational, while com
 - Leisure riders take longer, slower, and more variable trips → exploration and recreation  
 
 The key difference is not just how often bikes are used, but how they are used.
+
+
+## Recommendations
+
+Based on the insights and findings above, we would recommend the BikeShare Operations & Growth Team to consider the following:
+
+---
+
+### Leisure dominates usage → Redesign pricing and product to match longer, flexible trips
+- Leisure trips are significantly longer but not more distance-efficient, meaning current pricing (often time-penalizing) discourages usage.  
+
+- Introduce flat-fee ride tiers (e.g., 60–90 minute passes) instead of strictly per-minute pricing  
+- Add pause/resume functionality so riders are not penalized for stops  
+
+This aligns pricing with actual leisure behavior and can increase ride duration and satisfaction.
+
+---
+
+### Leisure demand is time- and condition-dependent → Improve bike allocation
+- Leisure trips spike on weekends and in good weather, while commuting is stable  
+
+- Shift bikes toward parks, waterfronts, and recreational areas on weekends  
+- Reallocate bikes back to business districts on weekdays for commuting hours  
+- Use weather-based demand forecasts to proactively adjust supply  
+
+This improves availability where and when demand is highest.
+
+---
+
+### User composition differs by metro → Adjust access and pricing by market
+- LA is more subscriber-driven, while other metros rely more on walk-up users  
+
+- In LA: increase subscriber retention and usage frequency (e.g., bundled weekend rides)  
+- In Austin, Pittsburgh, Portland: reduce friction with faster walk-up access and simple day-pass options  
+
+This ensures each market’s dominant user type is supported.
+
+---
+
+### Commuter trips are efficient and predictable → Prioritize reliability over expansion
+- Commuting is only 10%–22% of trips but shows consistent timing and patterns  
+
+- Ensure high bike availability at key stations during peak hours  
+- Focus on station density and uptime in business and transit areas  
+- Avoid over-expanding where it does not improve reliability  
+
+This protects a smaller but critical user segment.
+
+---
+
+### Leisure behavior varies by metro → Adapt infrastructure locally
+- Portland has high dockless usage, while Pittsburgh shows more long recreational trips  
+
+- Expand dockless or flexible return options in markets like Portland  
+- In Pittsburgh, prioritize coverage along long-distance recreational routes (parks, trails)  
+- Avoid uniform infrastructure decisions across cities  
+
+This aligns service design with how each city actually uses bikes.
+
+---
+
+### Leisure trips are less time-efficient → Position bike share as an experience
+- Leisure trips have lower miles per minute, meaning riders are slower, stopping, or exploring  
+
+- Shift messaging from “get there faster” to “enjoy the ride”  
+- Highlight scenic routes, casual rides, and exploration in campaigns  
+- Add product features like route suggestions and longer ride pricing  
+
+This aligns product positioning with actual user behavior and increases engagement.
+
+## Assumptions & Caveats
+
+- **Trip classification is rule-based, not observed behavior**  
+  Trips are labeled as “Commuter” or “Leisure” using time, day, user type, and station differences. This assumes peak-hour subscriber trips are commuting, but some trips may be misclassified.
+
+- **Subscriber = commuter assumption may not always hold**  
+  The classification assumes subscribers are more likely to commute, but they can also take leisure trips, especially outside peak hours.
+
+- **Zero-duration trips are partially removed as data errors**  
+  Trips with 0 minutes are removed only if they are not round trips (different start and end stations), assuming these are invalid.  
+  Round trips with 0 duration are kept, as they may reflect real behavior (e.g., unlocking and immediately returning a bike).
+
+- **Outliers are removed only for statistical calculations, not distribution structure**  
+  Outliers are removed using the IQR method when calculating mean duration and duration bands, since these metrics are sensitive to extreme values.  
+  However, for box plots, outliers are only visually excluded, and the underlying distribution is not recalculated, to avoid shifting thresholds and creating new outliers.
+
+- **Round trips vs. one-way trips are simplified indicators of behavior**  
+  Trips with the same start and end station are treated as recreational/loop trips, but some may still be functional (e.g., short errands).
+
+- **Distance is estimated using station coordinates (not actual route taken)**  
+  Distance is calculated using straight-line (Haversine) distance, which underestimates the actual path taken.
+
+- **Dockless trips are excluded from distance and efficiency analysis**  
+  Dockless trips lack fixed coordinates, so they are removed from distance-based metrics. This may bias results in metros with high dockless usage (e.g., Portland).
+
+- **Weather impact is simplified to rain vs. no rain**  
+  The analysis only considers whether it rained, not intensity, timing, or other conditions like temperature.
+
+- **Time-based patterns assume no external disruptions**  
+  Trends by day and season do not account for events, tourism, or policy changes that may affect demand.
+
+- **Metro comparisons assume similar system conditions**  
+  Differences in infrastructure (e.g., dockless availability, station density) may influence results beyond user behavior.
