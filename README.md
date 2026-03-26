@@ -164,3 +164,84 @@ Leisure dominates in all metros, but how people take leisure trips differs by ma
 - **How** bikes are accessed (station vs dockless)  
 
 The key difference across metros is not whether bikes are used for leisure, but how that leisure usage happens.
+
+
+## Category 2: Temporal Patterns
+
+### Commuter demand is stable on weekdays, while leisure spikes on weekends
+<p align="center">
+  <img src="images/daily_usage.jpeg" width="550"><br>
+</p>
+
+- Commuter trips are evenly distributed Monday–Friday in all cities, with each day contributing roughly 18%–21% of trips.  
+- In contrast, leisure trips increase sharply on weekends.  
+- For example, in Austin, leisure rises from ~10–15% on weekdays to 22.24% on Saturday, with similar patterns across all metros.  
+
+This shows commuting is routine-based, while leisure is concentrated on weekends.
+
+---
+
+### Weekend spikes reinforce that bike share is mainly used for leisure
+- Across all metros, the highest leisure usage occurs on Saturday and Sunday.  
+- For example, Austin reaches ~241K trips on Saturday compared to ~110K midweek.  
+- This same pattern appears in Los Angeles, Pittsburgh, and Portland.  
+
+This reinforces that overall bike share usage is driven more by leisure than commuting, especially during free time.
+
+---
+
+### Commuting is stable year-round, while leisure is seasonal
+<p align="center">
+  <img src="images/monthly_usage.jpeg" width="550"><br>
+</p>
+
+- Monthly variation in commuter share is low (Austin: 4.21, LA: 3.42), meaning commuting patterns do not change much across months.  
+- Leisure trips fluctuate more, increasing in warmer months and decreasing in colder months.  
+
+This shows commuting is consistent year-round, while leisure is influenced by season and external conditions.
+
+---
+
+### Leisure peaks in summer in most metros, with Austin as an exception
+- In Los Angeles, Pittsburgh, and Portland, leisure trips increase through spring and peak in July–August.  
+- Portland, for example, reaches around ~170K–180K trips in summer.  
+- Austin shows a different pattern, with a decline during peak summer months, likely due to extreme heat.  
+
+This highlights how local climate affects leisure demand even when overall patterns are similar.
+
+---
+
+### Commuters are more resilient to rain than leisure riders
+<p align="center">
+  <img src="images/rain_reslience.jpeg" width="550"><br>
+</p>
+- The Rain Participation Ratio compares how often trips occur in rain relative to how often it rains.  
+- A value of 1 means trips occur at the same rate as rain; below 1 means people avoid riding in rain.  
+
+**Commuter ratios (higher):**
+- Austin: 0.72  
+- Portland: 0.70  
+- Pittsburgh: 0.97  
+
+**Leisure ratios (lower):**
+- Austin: 0.56  
+- Portland: 0.54  
+- Pittsburgh: 0.56  
+
+This shows commuters are more likely to ride even in rain, while leisure riders avoid bad weather.
+
+---
+
+### Rain affects leisure more than commuting, but the overall impact is small
+- A Chi-Square Test of Independence was used to test the relationship between rain and trip type.  
+- Results show statistically significant relationships, but very small effect sizes (Cramér’s V: 0.005–0.053).  
+
+This means rain slightly reduces leisure trips more than commuting, but does not strongly change overall usage patterns.
+
+---
+
+### Overall pattern
+- Commuting follows consistent weekday routines and is less affected by season or weather.  
+- Leisure, which dominates total usage, varies by weekends, seasons, and weather conditions.  
+
+The key difference is not just how much each type is used, but how sensitive each is to time and external factors.
