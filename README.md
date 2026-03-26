@@ -122,7 +122,9 @@ This suggests stronger commuting adoption in LA, but even there, nearly 4 out of
 <p align="center">
   <img src="images/leisure_trips_subscriber_composition.jpeg" width="550"><br>
 </p>
+
 In Los Angeles, 55.03% of leisure trips come from subscribers, making it the only metro where leisure usage is primarily subscription-based.
+
 
 In contrast:
 - Austin: 59.43% walk-up  
