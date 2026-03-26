@@ -195,10 +195,10 @@ This reinforces that overall bike share usage is driven more by leisure than com
   <img src="images/monthly_usage.jpeg" width="550"><br>
 </p>
 
-- Monthly variation in commuter share is low (Austin: 4.21, LA: 3.42), meaning commuting patterns do not change much across months.  
+- Monthly variation in commuter share is lower but commuting patterns do change across months similar to leisure trips.  
 - Leisure trips fluctuate more, increasing in warmer months and decreasing in colder months.  
 
-This shows commuting is consistent year-round, while leisure is influenced by season and external conditions.
+Commuting shows smaller fluctuations year-round, but both leisure and commuting is influenced by season and external conditions.
 
 ---
 
