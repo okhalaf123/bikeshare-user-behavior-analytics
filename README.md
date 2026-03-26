@@ -29,7 +29,7 @@ The BikeShare database consists of five main tables with rental, location, time,
 
 ### Database Schema
 
-![Database Schema](images/schema.png)
+![Database Schema](schema.png)
 
 > Place the schema image inside an `images/` folder in your repository and name it `schema.png`.
 
