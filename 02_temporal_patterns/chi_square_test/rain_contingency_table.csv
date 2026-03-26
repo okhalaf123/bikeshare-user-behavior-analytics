@@ -1,0 +1,17 @@
+MetroArea,TripCategory,IsRainHour,Trips
+Austin,Commuter,0,169533
+Austin,Commuter,1,8281
+Austin,Leisure,0,1046341
+Austin,Leisure,1,39673
+Los Angeles,Commuter,0,235381
+Los Angeles,Commuter,1,4696
+Los Angeles,Leisure,0,846626
+Los Angeles,Leisure,1,15365
+Pittsburgh,Commuter,0,44601
+Pittsburgh,Commuter,1,4845
+Pittsburgh,Leisure,0,399426
+Pittsburgh,Leisure,1,24049
+Portland,Commuter,0,136400
+Portland,Commuter,1,18214
+Portland,Leisure,0,1027966
+Portland,Leisure,1,102332
