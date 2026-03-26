@@ -56,6 +56,8 @@ Lookup table mapping numeric day IDs (1–7) to day names.
 #### Weather
 Hourly weather data for each metro area, including temperature, precipitation, and conditions. Used to analyze how weather affects trip behavior.
 
+---
+
 ### Initial Checks & Data Cleaning
 
 Before analysis, several checks were performed to ensure data quality:
