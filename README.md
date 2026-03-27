@@ -294,7 +294,7 @@ This confirms commuters prioritize quick trips, while leisure riders are more li
 ### Distance is similar despite longer leisure durations
 Average distances are close or even lower for leisure:
 
-- Austin: 0.68 miles (leisure) vs 0.66 (commuter)  
+- Austin: 0.68 miles (leisure) vs 0.66 miles (commuter)  
 - Los Angeles: 0.69 vs 0.78  
 - Pittsburgh: 0.85 vs 1.13  
 - Portland: 0.48 vs 0.64  
