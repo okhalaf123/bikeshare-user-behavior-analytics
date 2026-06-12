@@ -347,71 +347,79 @@ The key difference is not just how often bikes are used, but how they are used.
 
 ## Recommendations
 
-Based on the insights and findings above, we would recommend the BikeShare Operations & Growth Team to consider the following:
+Based on the insights and findings above, we would recommend the BikeShare Operations & Growth Team consider the following:
 
 ---
 
-### Leisure dominates usage → Redesign pricing and product to match longer, flexible trips
-- Leisure trips are significantly longer but not more distance-efficient, meaning current pricing (often time-penalizing) discourages usage.  
+### Leisure dominates usage → Redesign pricing and product to support longer, flexible trips
 
-- Introduce flat-fee ride tiers (e.g., 60–90 minute passes) instead of strictly per-minute pricing  
-- Add pause/resume functionality so riders are not penalized for stops  
+- Leisure trips are consistently longer than commuter trips, but they do not cover proportionally more distance. This suggests leisure riders spend more time riding, stopping, or exploring rather than simply traveling farther.
 
-This aligns pricing with actual leisure behavior and can increase ride duration and satisfaction.
+- Introduce flat-fee ride tiers, such as 60–90 minute passes, instead of relying only on time-based pricing.
+- Add pause/resume functionality so riders are not penalized for short stops during recreational trips.
+- Create casual ride bundles for weekends or tourist-heavy periods.
+
+This aligns pricing with actual leisure behavior and can increase ride duration, satisfaction, and repeat usage.
 
 ---
 
 ### Leisure demand is time- and condition-dependent → Improve bike allocation
-- Leisure trips spike on weekends and in good weather, while commuting is stable  
 
-- Shift bikes toward parks, waterfronts, and recreational areas on weekends  
-- Reallocate bikes back to business districts on weekdays for commuting hours  
-- Use weather-based demand forecasts to proactively adjust supply  
+- Leisure trips are more common during weekends and favorable weather, while commuting is more stable and tied to weekday peak hours.
 
-This improves availability where and when demand is highest.
+- Shift bikes toward parks, waterfronts, trails, and recreational areas on weekends.
+- Reallocate bikes back to business districts, transit areas, and office-heavy zones during weekday commute hours.
+- Use weather and day-of-week patterns to anticipate changes in demand.
+
+This improves availability where and when demand is most likely to increase.
 
 ---
 
 ### User composition differs by metro → Adjust access and pricing by market
-- LA is more subscriber-driven, while other metros rely more on walk-up users  
 
-- In LA: increase subscriber retention and usage frequency (e.g., bundled weekend rides)  
-- In Austin, Pittsburgh, Portland: reduce friction with faster walk-up access and simple day-pass options  
+- Los Angeles is more subscriber-driven, while Austin, Pittsburgh, and Portland rely more heavily on casual or walk-up users.
+
+- In Los Angeles, focus on subscriber retention and usage frequency, such as bundled weekend rides or loyalty benefits.
+- In Austin, Pittsburgh, and Portland, reduce friction for casual riders through simple day passes, faster checkout, and clear station instructions.
+- Avoid using the same pricing and access strategy across all cities.
 
 This ensures each market’s dominant user type is supported.
 
 ---
 
-### Commuter trips are efficient and predictable → Prioritize reliability over expansion
-- Commuting is only 10%–22% of trips but shows consistent timing and patterns  
+### Commuter trips are efficient and predictable → Prioritize reliability over broad expansion
 
-- Ensure high bike availability at key stations during peak hours  
-- Focus on station density and uptime in business and transit areas  
-- Avoid over-expanding where it does not improve reliability  
+- Commuter trips make up a smaller share of total trips, but they are shorter, more efficient, and more predictable than leisure trips.
 
-This protects a smaller but critical user segment.
+- Ensure bike and dock availability at key commute stations during morning and evening peak hours.
+- Prioritize station uptime in business districts, transit hubs, and university or employment areas.
+- Focus on reliable service in high-use commute corridors before expanding into less proven areas.
+
+This protects a smaller but important user segment that depends on bike share for regular transportation.
 
 ---
 
 ### Leisure behavior varies by metro → Adapt infrastructure locally
-- Portland has high dockless usage, while Pittsburgh shows more long recreational trips  
 
-- Expand dockless or flexible return options in markets like Portland  
-- In Pittsburgh, prioritize coverage along long-distance recreational routes (parks, trails)  
-- Avoid uniform infrastructure decisions across cities  
+- Portland has high dockless involvement, while Pittsburgh shows especially long and variable leisure trips.
 
-This aligns service design with how each city actually uses bikes.
+- In Portland, support flexible return options and dockless access where it improves coverage.
+- In Pittsburgh, prioritize coverage near parks, trails, and longer recreational routes.
+- In Austin and Los Angeles, support leisure growth with weekend availability in high-demand recreational and visitor areas.
+
+This aligns service design with how riders actually use bike share in each city.
 
 ---
 
 ### Leisure trips are less time-efficient → Position bike share as an experience
-- Leisure trips have lower miles per minute, meaning riders are slower, stopping, or exploring  
 
-- Shift messaging from “get there faster” to “enjoy the ride”  
-- Highlight scenic routes, casual rides, and exploration in campaigns  
-- Add product features like route suggestions and longer ride pricing  
+- Leisure trips have lower miles per minute than commuter trips across all metros, meaning riders are moving more slowly, stopping more often, or taking less direct routes.
 
-This aligns product positioning with actual user behavior and increases engagement.
+- Shift marketing from only “get there faster” to “enjoy the ride.”
+- Highlight scenic routes, casual rides, parks, waterfronts, and exploration.
+- Add product features like route suggestions, longer ride passes, and leisure-focused station maps.
+
+This positions bike share as both transportation and recreation, which better matches actual leisure behavior.
 
 ## Assumptions & Caveats
 
