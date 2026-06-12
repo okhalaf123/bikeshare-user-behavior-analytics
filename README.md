@@ -427,30 +427,39 @@ This positions bike share as both transportation and recreation, which better ma
   Trips are labeled as “Commuter” or “Leisure” using time, day, user type, and station differences. This assumes peak-hour subscriber trips are commuting, but some trips may be misclassified.
 
 - **Subscriber = commuter assumption may not always hold**  
-  The classification assumes subscribers are more likely to commute, but they can also take leisure trips, especially outside peak hours.
+  The classification assumes subscribers are more likely to commute, but subscribers can also take leisure trips, especially outside peak commute hours.
 
 - **Zero-duration trips are partially removed as data errors**  
-  Trips with 0 minutes are removed only if they are not round trips (different start and end stations), assuming these are invalid.  
-  Round trips with 0 duration are kept, as they may reflect real behavior (e.g., unlocking and immediately returning a bike).
+  Trips with 0 minutes are removed only if they are not round trips, meaning the start and end stations are different. These records are unlikely to represent valid completed trips.  
+  Round trips with 0 duration are kept because they may reflect real behavior, such as a rider unlocking a bike and immediately returning it.
 
-- **Outliers are removed only for statistical calculations, not distribution structure**  
-  Outliers are removed using the IQR method when calculating mean duration and duration bands, since these metrics are sensitive to extreme values.  
-  However, for box plots, outliers are only visually excluded, and the underlying distribution is not recalculated, to avoid shifting thresholds and creating new outliers.
+- **Extremely long trips are removed using a practical validity threshold**  
+  Trips longer than 24 hours are removed from trip behavior analysis because they are unlikely to represent normal bikeshare use. These records may reflect docking issues, lost bikes, or system recording errors.  
+  Statistical outliers are not removed using the 1.5×IQR rule because unusually long trips are not automatically data errors.
+
+- **Duration statistics are based on valid trips, not IQR-trimmed data**  
+  Average duration, median duration, duration bands, and variability are calculated after applying practical data-quality filters. This keeps the analysis focused on trips that are plausible while avoiding arbitrary statistical outlier removal.
 
 - **Round trips vs. one-way trips are simplified indicators of behavior**  
-  Trips with the same start and end station are treated as recreational/loop trips, but some may still be functional (e.g., short errands).
+  Trips with the same start and end station are treated as possible recreational or loop trips, but some may still be functional, such as short errands or failed bike checkouts.
 
-- **Distance is estimated using station coordinates (not actual route taken)**  
-  Distance is calculated using straight-line (Haversine) distance, which underestimates the actual path taken.
+- **Distance is estimated using station coordinates, not the actual route taken**  
+  Distance is calculated using straight-line Haversine distance between start and end stations. This underestimates the actual distance traveled and does not capture the rider’s full route.
+
+- **Same-station round trips are excluded from distance-based analysis**  
+  Same-station round trips are kept in the broader trip behavior analysis, but they are excluded from distance and efficiency calculations. The straight-line distance formula returns 0 miles for these trips even if the rider may have traveled and returned to the same station.
+
+- **Non-round trips with 0 distance are excluded from distance-based analysis**  
+  Trips with different start and end stations but 0 calculated distance are treated as invalid for distance analysis because they do not provide a meaningful distance estimate.
 
 - **Dockless trips are excluded from distance and efficiency analysis**  
-  Dockless trips lack fixed coordinates, so they are removed from distance-based metrics. This may bias results in metros with high dockless usage (e.g., Portland).
+  Dockless trips lack fixed station coordinates, so they are removed from distance-based metrics. This may affect results in metros with high dockless usage, such as Portland.
 
 - **Weather impact is simplified to rain vs. no rain**  
-  The analysis only considers whether it rained, not intensity, timing, or other conditions like temperature.
+  The analysis only considers whether it rained, not rain intensity, timing, temperature, wind, or other weather conditions.
 
 - **Time-based patterns assume no external disruptions**  
-  Trends by day and season do not account for events, tourism, or policy changes that may affect demand.
+  Trends by hour, day, and season do not account for events, tourism, construction, service disruptions, or policy changes that may affect demand.
 
 - **Metro comparisons assume similar system conditions**  
-  Differences in infrastructure (e.g., dockless availability, station density) may influence results beyond user behavior.
+  Differences in infrastructure, station density, dockless availability, and local geography may influence results beyond rider behavior.
