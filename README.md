@@ -282,7 +282,7 @@ This means leisure usage includes a wider range of trip lengths, while commuting
 Using duration bands based on each metro’s trip duration distribution:
 
 <p align="center">
-  <img src="images/share_trip_types.jpeg" width="550"><br>
+  <img src="images/share_trip_types.jpeg" width="700"><br>
 </p>
 
 - Commuters have a low share of long trips across all metros:
